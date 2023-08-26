@@ -1,0 +1,87 @@
+﻿/* Estilo para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el contenedor principal */
+div {
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+/* Estilo para los labels */
+label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* Estilo para los TextBox y el input numérico */
+#TextBox1, #numericInput, #numericInput0, #numAño {
+    padding: 0.5em;
+    width: 283px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para los DropDownList */
+#DropDownList1, #DropDownList2 {
+    width: 291px;
+    height: 16px;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para el calendario */
+#Calendar1 {
+    margin-top: 1em;
+}
+
+/* Estilo para el botón Cancelar */
+#btnCancelar {
+    background-color: #ff9933; /* Naranja */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #btnCancelar:hover {
+        background-color: #e68000;
+    }
+
+/* Estilo para el botón Eliminar */
+#btnEliminar {
+    background-color: #ff3333; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #btnEliminar:hover {
+        background-color: #cc0000;
+    }
+
+/* Estilo para el botón Modificar */
+#btnModificar {
+    background-color: #33cc33; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    #btnModificar:hover {
+        background-color: #28a745;
+    }

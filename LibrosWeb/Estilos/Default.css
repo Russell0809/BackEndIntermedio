@@ -1,0 +1,25 @@
+﻿/* Estilo del contenedor */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('tu-imagen.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo del botón Comenzar */
+.comenzar-button {
+    font-size: 2em;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #50b3a2;
+    color: white;
+    cursor: pointer;
+}
+
+    .comenzar-button:hover {
+        background-color: #439482;
+    }
